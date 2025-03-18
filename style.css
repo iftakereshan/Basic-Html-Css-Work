@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff; 
+  padding: 15px 20px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #147fbe;
+}
+
+.login-btn {
+  background: #147fbe;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background: #0c5a92;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #147fbe;
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.portfolio-item {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease;
+  background: #fff;
+}
+
+
